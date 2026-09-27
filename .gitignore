@@ -216,3 +216,42 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ROS / colcon
+install/
+log/
+.colcon/
+.ros/
+*.bag
+*.bag.active
+*.db3
+*.mcap
+
+# Local project configuration and credentials
+.env.*
+*.key
+*.pem
+config/local.*
+
+# Large or machine-generated experiment data
+data/raw/
+results/raw/
+captures/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# LaTeX report build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
