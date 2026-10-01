@@ -1,0 +1,395 @@
+{
+  "download_date": "2026-10-01",
+  "files": [
+    {
+      "file": "arm-model.xacro",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/open_manipulator/jazzy/open_manipulator_description/urdf/open_manipulator_x/open_manipulator_x_arm.urdf.xacro",
+      "sha256": "41079F080CE766EE9F4AD68715CD7D27545156B98D801416E8358CCD4825DD78",
+      "bytes": 8799
+    },
+    {
+      "file": "arm-specification.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/docs/en/platform/openmanipulator_x/specification.md",
+      "sha256": "F79D1C5E6EF309FD1A9C7E0F8F72A8D5AF569125A61C264ABD4C7D02EC94C2FE",
+      "bytes": 12751
+    },
+    {
+      "file": "dxl_x_info.yml",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_data/dxl_x_info.yml",
+      "sha256": "440121EB2577FCA1B9954965DC74727B1CE3BA3332438952C8C20EE29AE6EBC0",
+      "bytes": 47048
+    },
+    {
+      "file": "manipulator-library.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/docs/en/software/robotis_manipulator_libs/robotis_manipulator_libs.md",
+      "sha256": "816AE7CE5D8FCFD94AEB7358322FE7AAA7AD7A1275CAF56A86C62EFE83715BE4",
+      "bytes": 84158
+    },
+    {
+      "file": "xm430-w350.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/docs/en/dxl/x/xm430-w350.md",
+      "sha256": "8F0E5301BC3366B0BEAC03473F2305055A527463ED45F78D5BEFF24F5E5EA00B",
+      "bytes": 26631
+    },
+    {
+      "file": "_includes/common/compatible_dxl/compatible_x430.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/common/compatible_dxl/compatible_x430.md",
+      "sha256": "913E67AB7325DA089CDF4B9E5B12481EDCFF7A80D8EBA02CAED17ECE02B54DEB",
+      "bytes": 7183
+    },
+    {
+      "file": "_includes/en/dxl/485_ttl_connection_x.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/485_ttl_connection_x.md",
+      "sha256": "0725E5B159D4B0E4A1E53C27C4E8C67588BFAD1D16B5EC7D17A90928D38BFEF6",
+      "bytes": 1553
+    },
+    {
+      "file": "_includes/en/dxl/common_link.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/common_link.md",
+      "sha256": "832D9F48285485293A32778687A1C3B35FC8BEE3D36BB93DA25D23DA9C3D7635",
+      "bytes": 5147
+    },
+    {
+      "file": "_includes/en/dxl/control_table_60_startup_configuration.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_60_startup_configuration.md",
+      "sha256": "E7461628F23C03AA154144AACDC7CEEDE8E22E41FAA5D4AE7C5DDB4B527D4374",
+      "bytes": 2481
+    },
+    {
+      "file": "_includes/en/dxl/control_table_backup_ready.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_backup_ready.md",
+      "sha256": "DEA8DFC447CEE0A92B3D7E221B3A52506ED2DC297D08C43B5CF6F83B995E9604",
+      "bytes": 866
+    },
+    {
+      "file": "_includes/en/dxl/control_table_baudrate_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_baudrate_2.md",
+      "sha256": "D6582E0AE32FF7AD2452D5F921C3A7A3E819E7A961462299D66D4B61D9569FD0",
+      "bytes": 1928
+    },
+    {
+      "file": "_includes/en/dxl/control_table_buswatchdog.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_buswatchdog.md",
+      "sha256": "3E9B3532E2E2C2D4A4E7B8C4201A30DC5739F1EA64F799820545D9B6A3033011",
+      "bytes": 3147
+    },
+    {
+      "file": "_includes/en/dxl/control_table_current_limit.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_current_limit.md",
+      "sha256": "4B4D270ACF5AD4D7A012CE7839ED2F7640E2EB675005094812115B2E5385C91B",
+      "bytes": 445
+    },
+    {
+      "file": "_includes/en/dxl/control_table_current_position_pid_gain.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_current_position_pid_gain.md",
+      "sha256": "EBD61C43A5789A9CE8A8C57E55F26AA605C5FBEA9526D57222E499138DA35912",
+      "bytes": 1116
+    },
+    {
+      "file": "_includes/en/dxl/control_table_drivemode.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_drivemode.md",
+      "sha256": "F3E9486855F0442E8A79B8969ADCEA57F81D6429027B9719C1F05A5D89C66209",
+      "bytes": 13246
+    },
+    {
+      "file": "_includes/en/dxl/control_table_goal_current.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_goal_current.md",
+      "sha256": "74B681D79AFA4AFA6B0D5AF423A845CBD289A149D4206E375BAACDEFE5227C0F",
+      "bytes": 295
+    },
+    {
+      "file": "_includes/en/dxl/control_table_goal_position_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_goal_position_2.md",
+      "sha256": "72423F52CF15FF968F5EC9D83FD08C4B65B2DEA3750F2867A661659DADA900A4",
+      "bytes": 1971
+    },
+    {
+      "file": "_includes/en/dxl/control_table_goal_pwm.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_goal_pwm.md",
+      "sha256": "86A014CA7E0D9253BB6295B6CD0EA0C854DEBD979563DBF5855473B2D27B2845",
+      "bytes": 708
+    },
+    {
+      "file": "_includes/en/dxl/control_table_goal_velocity.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_goal_velocity.md",
+      "sha256": "C29A1768C48A55D8FE9FCBFAC1D32E0C327417E0ACB1842FFA9E29F0F11EF466",
+      "bytes": 875
+    },
+    {
+      "file": "_includes/en/dxl/control_table_homingoffset.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_homingoffset.md",
+      "sha256": "A8FFD3D4FD7E534017FAE24B150962A00D9FE0EE461381DF3CD334039185ABB9",
+      "bytes": 739
+    },
+    {
+      "file": "_includes/en/dxl/control_table_id.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_id.md",
+      "sha256": "2838E7616241C00E8BAE943A1AACB56F90D9F6628415FB1DF679A9CD9798374E",
+      "bytes": 1435
+    },
+    {
+      "file": "_includes/en/dxl/control_table_indirect_data.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_indirect_data.md",
+      "sha256": "D9900F9E1686DA42FDE96943F152BF3A94C11DFE99A2F1742AA3BCC4961BDDA0",
+      "bytes": 4977
+    },
+    {
+      "file": "_includes/en/dxl/control_table_led.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_led.md",
+      "sha256": "4EF78F5D4A0FF02762AD6516D62505B651497A243ECE5DC4B9D2F475CF7CA7AD",
+      "bytes": 211
+    },
+    {
+      "file": "_includes/en/dxl/control_table_moving_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_moving_2.md",
+      "sha256": "79CF18236E9959E0E66C9791EE27ADF2A98553A2EB69B862E18F409A4BE95ED5",
+      "bytes": 666
+    },
+    {
+      "file": "_includes/en/dxl/control_table_moving_status.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_moving_status.md",
+      "sha256": "81763875B46A8E728D0876BD5DA4EE3C04643C0AAF608B11BC3492EF96000497",
+      "bytes": 2517
+    },
+    {
+      "file": "_includes/en/dxl/control_table_movingthreshold.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_movingthreshold.md",
+      "sha256": "879F8811A3BDED140E3D5E5606071AD36D3AE5BEB4AF88DF12ED605120AFDCCE",
+      "bytes": 481
+    },
+    {
+      "file": "_includes/en/dxl/control_table_opmode_note.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_opmode_note.md",
+      "sha256": "3EA348866172C6C6B707064FC22AFCDDA1EE766EF5B16C2A0155DA838973A1D9",
+      "bytes": 1682
+    },
+    {
+      "file": "_includes/en/dxl/control_table_opmode_six_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_opmode_six_2.md",
+      "sha256": "E2567155DFA1FF32EC33C153D5C5161CE7CA64D582E2A50EBC563C66589F8946",
+      "bytes": 4775
+    },
+    {
+      "file": "_includes/en/dxl/control_table_position_pid_gain.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_position_pid_gain.md",
+      "sha256": "B555835E613C7EDF10006E63141FFA37139ECE7BBB1045C49F1C861380DFEB43",
+      "bytes": 3224
+    },
+    {
+      "file": "_includes/en/dxl/control_table_position_trajectory.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_position_trajectory.md",
+      "sha256": "E5B7EBC9B850BC821685A3FD2723C6A741F15B498E0F4984E8160B3768B61AB2",
+      "bytes": 427
+    },
+    {
+      "file": "_includes/en/dxl/control_table_positionlimit.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_positionlimit.md",
+      "sha256": "430AEFF0EEDC7795724B4D7A202EA158C369A23D47CB88EF5816A1EC6FA46764",
+      "bytes": 660
+    },
+    {
+      "file": "_includes/en/dxl/control_table_present_position.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_present_position.md",
+      "sha256": "5676574DD852F72AB6CDEF986EAE03A6AEA7D2F860B5BD53BC2BD8D3005B25F8",
+      "bytes": 153
+    },
+    {
+      "file": "_includes/en/dxl/control_table_present_temp_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_present_temp_2.md",
+      "sha256": "53273236E96F5BA49C826D348DF728B2BA183C9E066F8C2ECE62C4E570981A95",
+      "bytes": 147
+    },
+    {
+      "file": "_includes/en/dxl/control_table_present_volt_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_present_volt_2.md",
+      "sha256": "9E6929753B5F1B9E23D800E5B3A983BE8D069D3A384489C21921EB2D0D5BEE2A",
+      "bytes": 160
+    },
+    {
+      "file": "_includes/en/dxl/control_table_profile_acceleration.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_profile_acceleration.md",
+      "sha256": "37AFB94EC1DB7E214ECD32E9D579272C43CA99D5BD0094854F9BC7473C1A0006",
+      "bytes": 1986
+    },
+    {
+      "file": "_includes/en/dxl/control_table_profile_velocity.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_profile_velocity.md",
+      "sha256": "2EE22D2491A9D462B026DB446C199A545758BEAEAEA331327099EDD424A245A1",
+      "bytes": 2262
+    },
+    {
+      "file": "_includes/en/dxl/control_table_protocolversion.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_protocolversion.md",
+      "sha256": "05FA7AA8D3FD204E8000CD09E594566AE6E2C51493DC5CB7FBE1A9721A48A180",
+      "bytes": 7349
+    },
+    {
+      "file": "_includes/en/dxl/control_table_pwm_limit.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_pwm_limit.md",
+      "sha256": "2FCA7BF3736B90705508C42636FECEFBE027843E25DE0984A8EB91929170E47C",
+      "bytes": 501
+    },
+    {
+      "file": "_includes/en/dxl/control_table_realtime_tick.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_realtime_tick.md",
+      "sha256": "B9CAC8320EC59FD018A5018906F34546946CB0635298650720B88651482892FD",
+      "bytes": 268
+    },
+    {
+      "file": "_includes/en/dxl/control_table_reg_instruction.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_reg_instruction.md",
+      "sha256": "B8919008FA34558AEAB639E485961D60B345C8B584A156175DB6A393E96FE95C",
+      "bytes": 937
+    },
+    {
+      "file": "_includes/en/dxl/control_table_return_delay_time.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_return_delay_time.md",
+      "sha256": "53429214C2ACCC4AC54C4DECF196FA23EC9937CC32E812F682731BE9D889DFB6",
+      "bytes": 1178
+    },
+    {
+      "file": "_includes/en/dxl/control_table_shadowid.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_shadowid.md",
+      "sha256": "3DAED7B2C02636CC4F0215C87AFCD0EC5B0162AC90AB1B8DEFE8C1DBCACDB4AF",
+      "bytes": 3172
+    },
+    {
+      "file": "_includes/en/dxl/control_table_shutdown.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_shutdown.md",
+      "sha256": "E87468269BCA161D6ECE7EA77487F44C01CDDFDE430A2D9D009C91C9401CF862",
+      "bytes": 12245
+    },
+    {
+      "file": "_includes/en/dxl/control_table_status_return_lv.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_status_return_lv.md",
+      "sha256": "85BEB6CA77E22A399833CF7321D63E480710F86776DFE1BB4A9ACA2031CB0CE0",
+      "bytes": 2024
+    },
+    {
+      "file": "_includes/en/dxl/control_table_temp_limit_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_temp_limit_2.md",
+      "sha256": "3F8777233A901B8C799AD71DA2E30345FC4854008CCF4158C00442F8894BE12D",
+      "bytes": 893
+    },
+    {
+      "file": "_includes/en/dxl/control_table_torque_enable.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_torque_enable.md",
+      "sha256": "80D5460489AA1D7DC57D2585227711FD8D040152BFB8ABCA598149E2C8FDDDCB",
+      "bytes": 1755
+    },
+    {
+      "file": "_includes/en/dxl/control_table_vellimit.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_vellimit.md",
+      "sha256": "77DF3C3556D35CB3A60C9A0ED84FF053FC547B05FB72CEF50FF2BB9E72499763",
+      "bytes": 524
+    },
+    {
+      "file": "_includes/en/dxl/control_table_velocity_pi_gain.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_velocity_pi_gain.md",
+      "sha256": "F86A0316EB6F0CE2AE694EDDB9F83E77051192632ABDB2C5044A84B1C591B605",
+      "bytes": 2108
+    },
+    {
+      "file": "_includes/en/dxl/control_table_velocity_trajectory.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_velocity_trajectory.md",
+      "sha256": "4FFA3EBAFB35FC947D8A75CC885B5609CCADF5B4CFD66903D8DB5DCF4EB59623",
+      "bytes": 645
+    },
+    {
+      "file": "_includes/en/dxl/control_table_volt_limit_2.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table_volt_limit_2.md",
+      "sha256": "5D2A1D1E4E104573673ADBE257944AB877FAA45F0D091ED6CD7466CC6A4961AA",
+      "bytes": 1474
+    },
+    {
+      "file": "_includes/en/dxl/control_table.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/control_table.md",
+      "sha256": "2CE87EC7A4A3034A6D593C4F3CDAFDA334EFE3EB9B4D74EA0897EE4C17A6FFB4",
+      "bytes": 5936
+    },
+    {
+      "file": "_includes/en/dxl/download_center_notice.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/download_center_notice.md",
+      "sha256": "7D6008CF323A5C71CB224644058DF31659923F275C5D5370EB50EE97B712FECB",
+      "bytes": 196
+    },
+    {
+      "file": "_includes/en/dxl/fcc_class_a.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/fcc_class_a.md",
+      "sha256": "611AB4852F5E9927CBDEC3ADDAAD33E84E3F665FDA5C7DF7B86D1DBBBC665F57",
+      "bytes": 853
+    },
+    {
+      "file": "_includes/en/dxl/hollow_cabling.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/hollow_cabling.md",
+      "sha256": "AFA88A4387C5701C0A4F69B44B3CF1020E25AB92AB0AC5D2F30A7C825232D15F",
+      "bytes": 528
+    },
+    {
+      "file": "_includes/en/dxl/jst_485_ttl.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/jst_485_ttl.md",
+      "sha256": "E068F4737B18D2FCE1DC13EA1AEF62DA1E1F749CD819246CBE74A54F319BCF61",
+      "bytes": 3747
+    },
+    {
+      "file": "_includes/en/dxl/led_policy.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/led_policy.md",
+      "sha256": "7E18FADF88B305F8FDDD201C98F708AB1EE3EEFEFDF3373793C9BF75687FCE2A",
+      "bytes": 714
+    },
+    {
+      "file": "_includes/en/dxl/note_performance_graph.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/note_performance_graph.md",
+      "sha256": "09E1C787389F6DB7C6F9E674FDA80F038F08749D00140BF59108F742047B7D04",
+      "bytes": 1907
+    },
+    {
+      "file": "_includes/en/dxl/profile_description.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/profile_description.md",
+      "sha256": "B61C31A5CCCACBEC6DCE22CB67B995A9C2ECC76435591374111A5B55B00C49AA",
+      "bytes": 3499
+    },
+    {
+      "file": "_includes/en/dxl/quick_start.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/quick_start.md",
+      "sha256": "A2E08BF3FADF48DF4173A0C82FA66248B57BAF03E50CE3AE9770BA737B6D3DEB",
+      "bytes": 2961
+    },
+    {
+      "file": "_includes/en/dxl/specifications_x.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/specifications_x.md",
+      "sha256": "61F1800996ABEC70539E5E1FD89163F298C11D12D7537CC6A542A596F4A82203",
+      "bytes": 2800
+    },
+    {
+      "file": "_includes/en/dxl/warning.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/warning.md",
+      "sha256": "F4B4F04636F696D2ED0D86DE000CA8EB51AA0C02C6068D24FC56EDCF36D2A407",
+      "bytes": 3822
+    },
+    {
+      "file": "_includes/en/dxl/assembly/430_540_gear_replacement.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/assembly/430_540_gear_replacement.md",
+      "sha256": "239109507C944315B18CC1CBC9F3444D59D2BCBF2B2593CC3AC4B8BF734B91DA",
+      "bytes": 1509
+    },
+    {
+      "file": "_includes/en/dxl/assembly/430_frame_assembly.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/assembly/430_frame_assembly.md",
+      "sha256": "1527642770BBB0D856FB64ECB90A702E51C855A6E97542FDF6195113E5E26E07",
+      "bytes": 6546
+    },
+    {
+      "file": "_includes/en/dxl/assembly/430_horn_assembly.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/assembly/430_horn_assembly.md",
+      "sha256": "41C194D62B3684737037084E2DF9F0B1C3E6706A4C57D0B04B1EC09A64E04EC6",
+      "bytes": 1660
+    },
+    {
+      "file": "_includes/en/dxl/drawing/x430_drawing.md",
+      "url": "https://raw.githubusercontent.com/ROBOTIS-GIT/emanual/master/_includes/en/dxl/drawing/x430_drawing.md",
+      "sha256": "A8DFC64CA361DDD0D8E784425291D4772FAC68917AF5BC9AB89A665209D85913",
+      "bytes": 3573
+    }
+  ]
+}

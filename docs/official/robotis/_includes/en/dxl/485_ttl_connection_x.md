@@ -1,0 +1,41 @@
+## [Communication Circuit](#communication-circuit)
+To control the DYNAMIXEL actuators, the main controller needs to convert its UART signals to the half duplex type. The recommended circuit diagram for this is shown below.
+
+{% if page.product_group !='dxl_xw540' %}
+### TTL Communication
+![](/assets/images/dxl/ttl_circuit.png)
+
+> TTL Circuit
+
+**NOTE**: Above circuit is designed for 5V or 5V tolerant MCU. Otherwise, use a Level Shifter to match the voltage of MCU.
+{: .notice}
+
+![](/assets/images/dxl/x/x_series_ttl_pin.png)
+{% else %}{% endif %}
+
+### RS-485 Communication
+![](/assets/images/dxl/x/x_series_485_circuit.jpg)  
+> RS-485 Circuit 
+
+**NOTE**: Above circuit is designed for 5V or 5V tolerant MCU. Otherwise, use a Level Shifter to match the voltage of MCU.
+{: .notice}
+
+{% if page.product_group=='dxl_xw540' or page.product_group=='dxl_xw430' %}  
+
+![](/assets/images/dxl/x/xw/xw_series_485_pin.png)  
+> XW540-Series Connector
+
+![](/assets/images/dxl/x/xw/xw_series_485_pin_connector.png)
+> Dust and Water Proof Data Cable
+
+{% else %}
+
+![](/assets/images/dxl/x/x_series_485_pin.png)
+
+{% endif %}
+
+The power of DYNAMIXEL is supplied via Pin1(-), Pin2(+).  
+(The above circuit is built into DYNAMIXEL's controller only)  
+In the above circuit diagram, the direction of data signal of TxD and RxD in the TTL Level is determined according to the level of DIRECTION 485 as follows:  
+In case of DIRECTION485 Level = High: The signal of TxD is output to D+ and D-  
+In case of DIRECTION485 Level = Low: The signal of D+ and D- is output to RxD  
